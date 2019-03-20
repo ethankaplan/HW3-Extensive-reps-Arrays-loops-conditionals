@@ -121,3 +121,12 @@ for(let i = 0; i<kristynsCloset.length;i++){
 for(let i = 0;i<thomsCloset.length;i++){
     console.log(thomsCloset[i]);
 }
+
+//Commit 9
+var sumAll = 0;
+for(let i = 0;i<1000;i++){
+    if(i%3==0||i%5==0){
+        sumAll+=i;
+    }
+}
+console.log(sumAll);
