@@ -130,3 +130,56 @@ for(let i = 0;i<1000;i++){
     }
 }
 console.log(sumAll);
+
+
+//Commit 10
+var argument = 7;
+var output = "";
+for(let x = 1;x<=argument;x++){
+    for(let i = 0;i<x;i++){
+        output+="#";
+    }
+    console.log(output);
+    output="";
+}
+var rightIso ="";
+for(let x = argument;x>=1;x--){
+
+    for(let i = 1;i<=argument;i++){
+        if(i<x){
+            rightIso+=" ";
+        }
+        else{
+            rightIso+="#";
+        }
+    }
+    console.log(rightIso);
+    rightIso="";
+}
+
+output = "";
+for(let x = argument;x>=1;x--){
+    for(let i = 0;i<x;i++){
+        output+="#";
+    }
+    console.log(output);
+    output="";
+}
+
+var LeftIso ="";
+for(let x = 1;x<=argument;x++){
+
+    for(let i = 1;i<=x;i++){
+        if(i>x){
+            LeftIso+=" ";
+        }
+        else{
+            LeftIso+="#";
+        }
+    
+    }
+
+    console.log(LeftIso);
+    LeftIso="";
+    
+}
