@@ -58,3 +58,20 @@ jimHaff.pop();
 jimHaff.push("Baltimore", "Boston", "Albany");
 jimHaff.splice(2,1);
 
+//Commit 6
+var turtles = ["Donatello","Leonardo","Raphael","Michaelangelo"];
+for(let x = 0;x<turtles.length;x++){
+    console.log(alternate(turtles[x]));
+}
+function alternate(str){
+    var output = "";
+    for(var i = 0; i < str.length; i++){
+        if (i % 2 == 0) {
+            output += str[i].toUpperCase();
+        }
+        else {
+            output += str[i].toLowerCase();
+         }   
+    }
+    return output;
+}
