@@ -44,3 +44,17 @@ for(let i = 0; i<=100;i++){
     }
 }
 
+//Commit 5
+const kenny = ["Kenny", 1000, "Austin"];
+const jimHaff = ["Jim H", 16, "All cities"];
+const reuben = ["Reuben", 22, "Durham"];
+const jimClark = ["Jim C", 186, "LA"];
+const ryan = ["Ryan", 65, "Denver"];
+kenny[0]="Gameboy";
+jimClark[1]++;
+ryan[2]="Gotham City";
+reuben.pop();reuben.push("Chicago");
+jimHaff.pop();
+jimHaff.push("Baltimore", "Boston", "Albany");
+jimHaff.splice(2,1);
+
