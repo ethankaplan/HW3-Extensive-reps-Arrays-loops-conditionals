@@ -75,3 +75,41 @@ function alternate(str){
     }
     return output;
 }
+
+//Commit 7
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  
+  // Thom's closet is more complicated. Check out this nested data structure!!
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+];
+var kristynsShoe = kristynsCloset[0];
+kristynsCloset.splice(0,1);
+
+console.log("Kristin picked an outfit of "+kristynsCloset[0]+" and "+kristynsCloset[3]+" with only "+kristynsCloset[5]+" for a top");
+console.log("Thom wore "+thomsCloset[0][1]+" with "+thomsCloset[1][0]+" and accessorized with "+thomsCloset[2][2]);
+console.log("Thom wore "+thomsCloset[0][0]+" with "+thomsCloset[1][2]+" and accessorized with "+thomsCloset[2][0]);
