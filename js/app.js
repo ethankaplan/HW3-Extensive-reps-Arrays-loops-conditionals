@@ -113,3 +113,11 @@ kristynsCloset.splice(0,1);
 console.log("Kristin picked an outfit of "+kristynsCloset[0]+" and "+kristynsCloset[3]+" with only "+kristynsCloset[5]+" for a top");
 console.log("Thom wore "+thomsCloset[0][1]+" with "+thomsCloset[1][0]+" and accessorized with "+thomsCloset[2][2]);
 console.log("Thom wore "+thomsCloset[0][0]+" with "+thomsCloset[1][2]+" and accessorized with "+thomsCloset[2][0]);
+
+//Commit 8
+for(let i = 0; i<kristynsCloset.length;i++){
+    console.log("WHIRR: Now washing "+kristynsCloset[i]);
+}
+for(let i = 0;i<thomsCloset.length;i++){
+    console.log(thomsCloset[i]);
+}
